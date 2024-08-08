@@ -10,7 +10,7 @@ Than finde Post - messege
 
 ![obrazek](https://github.com/user-attachments/assets/7ba5c2b4-127e-4fad-b23a-c48d501e9951) 
 
-In head finde https://discord.com/....
+In head finde https://discord.com/.... (this copy to Target = " ")
 
 And Authorization
 	
