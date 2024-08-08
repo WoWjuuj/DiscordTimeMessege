@@ -1,4 +1,7 @@
 # DiscordTimeMessege
+
+py version -- python-3.12.4
+
 Allowes you to automatically sends messeges to discord chats without openning discord
 #Targets
 
