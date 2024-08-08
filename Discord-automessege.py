@@ -4,26 +4,26 @@ from datetime import datetime
 import time
 
 # URLS of discord chats you want to send messeges
-target_set=[""]
+target_set=["","",""]
 
 # Your Discord token -- Dont share this its Hash of your discord password :3
 headers = {
-    ""
+    "Authorization": ""
 }
 
 print("")
-print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-")
-print("HHH    HHH   EEEEEEEE   LLLL      LLLL      OOOOOOO      FFFFFF   RRRRRR      III  EEEEEEE  N   N   DDDDDDD    SSSSSS")
-print("HHH    HHH   EEEE       LLLL      LLLL     OOO   OOO     FFF      RRR   RRR   III  EEE      N   N   DDD   DDD  SSS   ")
-print("HHHHHHHHHH   EEEEEEEE   LLLL      LLLL     OOO   OOO     FFFFFF   RRRRRR      III  EEEEEEE  NN  N   DDD    DD  SSSSSS")
-print("HHH    HHH   EEEE       LLLL      LLLL     OOO   OOO     FFF      RRR  RRR    III  EEE      N M N   DDD   DDD       S")
-print("HHH    HHH   EEEEEEEE   LLLLLLL   LLLLLLL   OOOOOOO      FFF      RRR   RRR   III  EEEEEEE  N  MN   DDDDDDD    SSSSSS")
-print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-")
-print("                                                                                                                     ")
-print("1. Number 1 = morning                                                                                                ")
-print("2. Number 2 = afternoon         4.If you want to start use 4                                                         ")
-print("3. Number 3 = night                                                                                                  ")
-print("")
+print(" -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-")
+print(" HHH    HHH   EEEEEEEE   LLLL      LLLL      OOOOOOO      FFFFFF   RRRRRR      III  EEEEEEE  N   N   DDDDDDD    SSSSSS")
+print(" HHH    HHH   EEEE       LLLL      LLLL     OOO   OOO     FFF      RRR   RRR   III  EEE      N   N   DDD   DDD  SSS   ")
+print(" HHHHHHHHHH   EEEEEEEE   LLLL      LLLL     OOO   OOO     FFFFFF   RRRRRR      III  EEEEEEE  NN  N   DDD    DD  SSSSSS")
+print(" HHH    HHH   EEEE       LLLL      LLLL     OOO   OOO     FFF      RRR  RRR    III  EEE      N M N   DDD   DDD       S")
+print(" HHH    HHH   EEEEEEEE   LLLLLLL   LLLLLLL   OOOOOOO      FFF      RRR   RRR   III  EEEEEEE  N  MN   DDDDDDD    SSSSSS")
+print(" -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-")
+print("                                                                                                                      ")
+print("1. If you want to start use number 4                                                                                  ")
+print("2. Number 2 = afternoon                                                                                               ")
+print("3. Number 1 = morning                                                                                                 ")
+print("4. Number 3 = night                                                                                                   ")
 
 
 def get_info(day_part):
